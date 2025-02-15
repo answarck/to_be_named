@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cringe Pickup Line Generator</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Cringe Pickup Line Generator</h1>
+        <p id="pickup-line">{{ pickupline }}</p>
+        <form action="" method="post">
+            {% csrf_token %}
+            <button id="generate-button">Generate Pickup Line</button>
+        </form>
+    </div>
+    <script>
+        button = document.getElementById('generate-button')
+        button.addEventListener('click', function() {
+            document.getElementById('pickup-line').innerHTML = "🥴 Brace yourself... the most epic cringe is brewing just for you!";
+        })
+    </script>
+</body>
+</html>
