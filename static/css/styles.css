@@ -5,7 +5,6 @@ body, html {
 }
 
 .background {
-    /* background-image: url(../img/b.jpg);  */
     background-size: cover;  
     background-position: center; 
     height: 100vh; 
@@ -16,7 +15,8 @@ body, html {
     text-align: center; 
 }
 body {
-    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, #ff66b2, #ff99cc, #ffb3d9);
+    font-family: Georgia,sans-serif;
     background-color: #FFC0CB;
     display: flex;
     justify-content: center;
@@ -27,9 +27,9 @@ body {
 .container {
     text-align: center;
     background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -41,17 +41,18 @@ button {
     font-size: 16px;
     cursor: pointer;
     border: none;
-    border-radius: 5px;
-    background-color: #007BFF;
+    border-radius: 10px;
+    background-color: #ee3db6;
     color: white;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #ea1f66;
 }
 
 #pickup-line {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 20px;
-    font-size: 18px;
-    color: #555;
+    font-size: 25px;
+    color: #eb0580;
 }

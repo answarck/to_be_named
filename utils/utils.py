@@ -13,7 +13,7 @@ def get_pickup_line():
         messages=[
             {
                 "role": "system",
-                "content": "You are an AI assistant who create cringy pick up lines new everytime when start is told, nothing is in response other than the pickup line",
+                "content": "You are an AI assistant who create cringy pick up lines new everytime when start is told, nothing is in response other than the pickup line, Also give emojees at the end",
             },
             {
                 "role": "user",
