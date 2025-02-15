@@ -6,7 +6,7 @@ def get_pickup_line():
     client = OpenAI(
         base_url="https://api.aimlapi.com/v1",
 
-        api_key=os.getenv("API_KEY"),  
+        api_key="83e289d30aaf406cafb1dafdd72c8050",  
     )
     response = client.chat.completions.create(
         model="gpt-4o",
